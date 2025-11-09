@@ -14,6 +14,11 @@ public class ApiRestApplication {
 		return "Hi, baby";
 	}
 
+	@GetMapping("/testeo")
+	public String testeo(){
+		return "Este es mi endpoint de testeo";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(ApiRestApplication.class, args);
 	}
