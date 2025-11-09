@@ -14,14 +14,14 @@ public class ApiRestApplication {
 		return "Hi, baby baby";
 	}
 
-	@GetMapping("/testeo")
+	@GetMapping("/status")
 	public String testeo(){
-		return "Este es mi endpoint de testeo";
+		return "Aqui estara el status de sistema";
 	}
 
-	@GetMapping("/about")
+	@GetMapping("/data")
 	public String about(){
-		return "Este es el endpoint about this page";
+		return "Aqui recibira y procesara datos";
 	}
 
 	public static void main(String[] args) {
