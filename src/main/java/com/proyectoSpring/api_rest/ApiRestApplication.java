@@ -21,7 +21,7 @@ public class ApiRestApplication {
 
 	@GetMapping("/about")
 	public String about(){
-		return "Este es el endpoint about";
+		return "Este es el endpoint about this page";
 	}
 
 	public static void main(String[] args) {
