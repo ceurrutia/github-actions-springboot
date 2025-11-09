@@ -11,7 +11,7 @@ public class ApiRestApplication {
 
 	@GetMapping("/welcome")
 	public String saludar(){
-		return "Hi, baby";
+		return "Hi, baby baby";
 	}
 
 	@GetMapping("/testeo")
